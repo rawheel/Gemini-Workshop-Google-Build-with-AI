@@ -19,7 +19,7 @@ This project helps you match your resume with job descriptions to identify gaps 
 
 1. Clone this repository:
    ```
-   git clone https://github.com/yourusername/Gemini-Workshop-GDSCNED.git
+   git clone https://github.com/rawheel/Gemini-Workshop-GDSCNED.git
    cd Gemini-Workshop-GDSCNED
    ```
 
