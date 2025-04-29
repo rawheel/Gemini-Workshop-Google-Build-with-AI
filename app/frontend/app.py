@@ -19,7 +19,7 @@ def load_sample_file(filename):
         return ""
 
 # API endpoint
-API_URL = "http://localhost:8080/analyze"
+API_URL = "http://localhost:8000/analyze"
 
 # App header
 st.title("📝 Resume Matcher with Gemini AI")
