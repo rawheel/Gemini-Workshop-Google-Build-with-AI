@@ -2,6 +2,7 @@ from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from app import gemini_service
+from typing import Dict, Optional
 
 app = FastAPI(title="Resume Matcher API")
 
@@ -20,6 +21,7 @@ class AnalysisRequest(BaseModel):
 
 class AnalysisResponse(BaseModel):
     analysis: str
+    token_usage: Optional[Dict] = None
 
 @app.get("/")
 def read_root():
@@ -36,13 +38,21 @@ async def analyze_resume(request: AnalysisRequest):
     
     Returns:
     - Analysis and suggestions for improving the resume
+    - Token usage information (if available)
     """
     try:
-        analysis = gemini_service.analyze_resume_for_job(
+        result = gemini_service.analyze_resume_for_job(
             request.job_description, 
             request.resume
         )
-        return AnalysisResponse(analysis=analysis)
+        
+        # If the result is a tuple with analysis and token usage
+        if isinstance(result, tuple) and len(result) == 2:
+            analysis, token_usage = result
+            return AnalysisResponse(analysis=analysis, token_usage=token_usage)
+        
+        # If just a string is returned (for backward compatibility)
+        return AnalysisResponse(analysis=result)
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 

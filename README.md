@@ -116,7 +116,7 @@ Here are some ideas to enhance this project after the workshop:
 
 ## Workshop Resources
 
-- [Presentation Slides](https://example.com/workshop-slides)
+- [Presentation Slides](https://www.canva.com/design/DAGmCiwSOjM/A885Em97Yo3iapnKQyBM1A/edit?utm_content=DAGmCiwSOjM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 - [Gemini API Documentation](https://ai.google.dev/docs)
 - [FastAPI Documentation](https://fastapi.tiangolo.com/)
 - [Streamlit Documentation](https://docs.streamlit.io/)
