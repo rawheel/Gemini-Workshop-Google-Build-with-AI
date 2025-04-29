@@ -83,7 +83,7 @@ if st.button("Analyze Resume", type="primary", use_container_width=True):
                     st.error(f"Error: {response.status_code} - {response.text}")
             except Exception as e:
                 st.error(f"Failed to connect to the API: {str(e)}")
-                st.info("Make sure the FastAPI backend is running on port 8080")
+                st.info("Make sure the FastAPI backend is running on port 8000")
 
 # Footer
 st.caption("Created for Gemini API Workshop - GDSC NED") 

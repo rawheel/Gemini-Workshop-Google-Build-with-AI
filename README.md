@@ -71,7 +71,6 @@ resume-matcher/
 ├── sample_data/             # Sample job descriptions and resumes
 ├── .env                     # Environment variables (not tracked by git)
 ├── env.example              # Example environment file
-├── GEMINI_API_SETUP.md      # Instructions for getting Gemini API key
 ├── WORKSHOP_GUIDE.md        # Guide for workshop instructors
 ├── requirements.txt         # Project dependencies
 └── README.md                # Project documentation
