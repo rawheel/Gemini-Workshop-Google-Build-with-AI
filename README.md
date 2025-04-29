@@ -49,7 +49,7 @@ This project helps you match your resume with job descriptions to identify gaps 
 
 1. Start the FastAPI backend:
    ```
-   uvicorn app.main:app --reload
+   uvicorn app.main:app --reload --port 8080
    ```
 
 2. In a separate terminal, start the Streamlit frontend:
