@@ -10,7 +10,7 @@ api_key = os.getenv("GOOGLE_API_KEY")
 genai.configure(api_key=api_key)
 
 # Set up the model
-model = genai.GenerativeModel('gemini-pro')
+model = genai.GenerativeModel('gemini-1.5-pro-002')
 
 def analyze_resume_for_job(job_description, resume):
     """

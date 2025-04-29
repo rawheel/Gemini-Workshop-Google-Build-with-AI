@@ -10,7 +10,7 @@ st.set_page_config(
 )
 
 # API endpoint (update if your API runs on a different URL)
-API_URL = "http://localhost:8000/analyze"
+API_URL = "http://localhost:8080/analyze"
 
 # Custom CSS
 st.markdown("""

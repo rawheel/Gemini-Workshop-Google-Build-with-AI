@@ -2,7 +2,7 @@ from fastapi import FastAPI, Form, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from typing import Optional
-import gemini_service
+from app import gemini_service
 
 app = FastAPI(title="Resume Matcher API")
 
@@ -58,3 +58,7 @@ async def analyze_resume_form(
         return AnalysisResponse(analysis=analysis)
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e)) 
+
+if __name__ == "__main__":
+    import uvicorn
+    uvicorn.run(app, host="0.0.0.0", port=8080)
