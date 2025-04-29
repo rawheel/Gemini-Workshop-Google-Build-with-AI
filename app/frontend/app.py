@@ -50,6 +50,18 @@ with col2:
         height=300
     )
 
+# Add LLM config expander
+with st.expander("LLM Configuration Details"):
+    st.markdown("""
+    This application uses Gemini 1.5 Pro with the following settings:
+    - **Temperature**: 0.2 (More deterministic responses)
+    - **Maximum output tokens**: 2048
+    - **Top-p**: 0.9 (Consider tokens covering 90% of probability mass)
+    - **Top-k**: 40 (Consider top 40 tokens)
+    
+    For more details on these parameters, see the LLM_CONFIG.md file.
+    """)
+
 # Submit button
 if st.button("Analyze Resume", type="primary", use_container_width=True):
     if not job_description or not resume:
@@ -68,9 +80,21 @@ if st.button("Analyze Resume", type="primary", use_container_width=True):
                     # Display results
                     result = response.json()
                     analysis = result.get("analysis", "")
+                    token_usage = result.get("token_usage", None)
                     
                     st.subheader("Analysis Results")
                     st.markdown(analysis)
+                    
+                    # Display token usage if available
+                    if token_usage:
+                        st.subheader("Token Usage")
+                        col1, col2, col3 = st.columns(3)
+                        with col1:
+                            st.metric("Prompt Tokens", token_usage.get("prompt_token_count", "N/A"))
+                        with col2:
+                            st.metric("Response Tokens", token_usage.get("candidates_token_count", "N/A"))
+                        with col3:
+                            st.metric("Total Tokens", token_usage.get("total_token_count", "N/A"))
                     
                     # Add an option to download the analysis
                     st.download_button(
