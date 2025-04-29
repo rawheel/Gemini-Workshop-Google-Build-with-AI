@@ -19,8 +19,8 @@ This project helps you match your resume with job descriptions to identify gaps 
 
 1. Clone this repository:
    ```
-   git clone https://github.com/yourusername/resume-matcher.git
-   cd resume-matcher
+   git clone https://github.com/yourusername/Gemini-Workshop-GDSCNED.git
+   cd Gemini-Workshop-GDSCNED
    ```
 
 2. Set up a virtual environment:
@@ -62,7 +62,7 @@ This project helps you match your resume with job descriptions to identify gaps 
 ## Project Structure
 
 ```
-resume-matcher/
+Gemini-Workshop-GDSCNED/
 ├── app/
 │   ├── main.py              # FastAPI main application
 │   ├── gemini_service.py    # Gemini API integration
