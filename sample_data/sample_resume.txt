@@ -1,0 +1,55 @@
+SARAH JOHNSON
+sarahjohnson@email.com | (555) 123-4567 | github.com/sarahjohnson | linkedin.com/in/sarahjohnson
+
+SUMMARY
+Web developer with 2 years of experience creating responsive websites and applications. Passionate about writing clean, efficient code and implementing user-friendly designs.
+
+EDUCATION
+Bachelor of Science in Computer Science
+University of Technology | Graduated: May 2021
+GPA: 3.7/4.0
+
+SKILLS
+Programming Languages: JavaScript, HTML5, CSS3, Python
+Frontend: React.js, jQuery, Bootstrap
+Backend: Node.js (basic), PHP (basic)
+Databases: MySQL
+Tools: Git, VS Code, Chrome DevTools, Figma
+Other: Responsive Design, SEO basics
+
+EXPERIENCE
+Junior Web Developer | WebCraft Solutions | June 2021 - Present
+- Developed and maintained responsive websites for 10+ clients using HTML, CSS, and JavaScript
+- Collaborated with designers to implement UI/UX features and ensure brand consistency
+- Created a company blog website using WordPress that increased site traffic by 25%
+- Optimized website performance by implementing lazy loading and image compression
+- Participated in weekly team meetings and sprint planning sessions
+
+Web Development Intern | TechStart Inc. | Jan 2021 - May 2021
+- Assisted in building a React.js dashboard application for internal use
+- Fixed bugs and implemented minor feature updates on existing web applications
+- Created documentation for code maintenance and future development
+- Worked with senior developers to learn industry best practices
+
+PROJECTS
+Personal Portfolio Website
+- Designed and developed a responsive personal portfolio using React.js
+- Implemented smooth scrolling and animations for enhanced user experience
+- Deployed the site using GitHub Pages with custom domain setup
+
+E-commerce Product Page
+- Created a fully responsive product page with product gallery and cart functionality
+- Implemented using HTML, CSS, and vanilla JavaScript
+- Added form validation and local storage for cart items
+
+Weather Application
+- Built a weather application that fetches real-time data from a weather API
+- Used JavaScript fetch API for data retrieval and manipulation
+- Implemented geolocation for automatic local weather updates
+
+CERTIFICATIONS
+- Responsive Web Design - freeCodeCamp (2020)
+- JavaScript Algorithms and Data Structures - freeCodeCamp (2021)
+
+LANGUAGES
+English (Native), Spanish (Intermediate) 

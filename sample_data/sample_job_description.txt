@@ -1,0 +1,43 @@
+Job Title: Full Stack Developer
+
+Company: TechSolutions Inc.
+
+About Us:
+TechSolutions Inc. is a growing tech company focused on developing innovative web applications for businesses. We are looking for a talented Full Stack Developer to join our dynamic team.
+
+Requirements:
+- Bachelor's degree in Computer Science, Information Technology, or related field
+- 3+ years of experience in web development
+- Strong proficiency in JavaScript, HTML5, and CSS3
+- Experience with modern JavaScript frameworks, particularly React.js
+- Experience with Node.js and Express.js
+- Familiarity with database technologies (MongoDB, MySQL)
+- Knowledge of RESTful API design and implementation
+- Understanding of version control systems (Git)
+- Experience with testing frameworks (Jest, Mocha)
+- Strong problem-solving skills and attention to detail
+- Excellent communication and teamwork abilities
+
+Responsibilities:
+- Develop and maintain web applications for our clients
+- Write clean, efficient, and maintainable code
+- Collaborate with the design team to implement UI/UX features
+- Build and integrate RESTful APIs
+- Ensure cross-platform optimization for mobile devices
+- Implement security and data protection measures
+- Troubleshoot and debug applications
+- Participate in code reviews and contribute to team meetings
+- Stay up-to-date with emerging trends and technologies
+
+Nice to Have:
+- Experience with TypeScript
+- Knowledge of AWS or other cloud platforms
+- Understanding of CI/CD pipelines
+- Experience with Agile methodologies
+
+Benefits:
+- Competitive salary
+- Health insurance
+- Flexible working hours
+- Professional development opportunities
+- Fun and collaborative work environment 
