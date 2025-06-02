@@ -1,4 +1,4 @@
-# Resume Matcher with Gemini API
+# Resume Analyzer with Gemini API
 ## GDSC NED Workshop Project
 
 This project helps you match your resume with job descriptions to identify gaps and improve your resume for specific job applications. Perfect for students and job seekers looking to tailor their resumes for better results!
